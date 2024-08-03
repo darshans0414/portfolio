@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <!-- MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title> portfolio</title>
+</head>
+
+<body>
+    <!-- HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#CV">CV</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <!-- HOME SECTION DESIGN-->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hi, I am</h3>
+            <h1>Darshan Shukla</h1>
+            <h3>I am a <span> Linux Admistator, AWS Admistator, Software Developer</span></h3>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/darshans0414"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/darshan-shukla-195275231"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./resume.pdf" download="Darshan_Shukla_Resume.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png">
+        </div>
+    </section>
+
+    <!-- About SECTION DESIGN-->
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="about.jpg">
+        </div>
+        <div class="about-content">
+            <h2 class="heading"><span>About Me</span></h2>
+            <h3>Linux Admistator, AWS Admistator, Software Developer</h3>
+            <p>Bachelor's degree in Computer Engineering from Mumbai University. Skilled in Linux administration and
+                Amazon Web Services (AWS).
+                Experienced in setting up and securing systems. Proficient in managing cloud infrastructure using AWS
+                services like EC2 and S3. Strong soft skills including adaptability, dedication, and a passion for
+                learning.
+                Actively contributes to projects and adept at solving technical challenges in different areas.
+                Committed to innovation and driving progress in the tech industry</p>
+        </div>
+    </section>
+
+    <!--SKILL SECTION DESIGN -->
+    <section class="Skill" id="Skill">
+        <h2 class="heading"><span>My Skill</span></h2>
+        <div class="Skill-container">
+            <div class="Skill-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+                <p>Python, Java, C/C++</p>
+
+            </div>
+            <div class="Skill-container">
+                <div class="Skill-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>JavaScript, HTML/CSS</p>
+
+                </div>
+                <div class="Skill-container">
+                    <div class="Skill-box">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Cloud Services</h3>
+                        <p>AWS, EC2, RDS, S3, VPC, DynamoDB</p>
+
+
+                    </div>
+                    <div class="Skill-container">
+                        <div class="Skill-box">
+                            <i class="fab fa-windows"></i>
+                            <h3>Operating Systeam</h3>
+                            <p>Linux, Windows, Android</p>
+
+                        </div>
+                    </div>
+    </section>
+
+    <!-- CV SECTION DESIGN -->
+
+    <section class="CV" id="CV">
+        <embed src="./resume.pdf" width="100%" height="100%" type="application/pdf">
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="Project" id="Project">
+        <h2 class="heading"><span>My Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="game.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Snake Game In Python</h4>
+                    <p> Crafted a dynamic, immersive game for children under 20, promoting creativity and learning.
+                        Enhanced engagement with visually stunning graphics and intuitive controls.
+                        Ensured safety through meticulous testing and moderation, prioritizing child-friendly content.
+                        Implemented interactive game mechanics using Python's Pygame library.
+                        Guaranteed flawless performance with Python's unit testing framework.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="linux.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Digi Watch In Linux</h4>
+                    <p>Orchestrated seamless collaboration between business and IT stakeholders to align solutions with
+                        strategic objectives.
+                        Implemented SDLC methodology, emphasizing project phases and innovative feature prioritization.
+                        Leveraged Linux technologies like Docker for efficient app deployment and management.
+                        Implemented robust Linux security measures, including SELinux, to ensure data integrity and
+                        system protection.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xyzgwlyk" method="POST">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="email" placeholder="Email Address" name="email">
+
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="number">
+                <input type="text" placeholder="Subject" name="Subject">
+
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <link tag>
+
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
